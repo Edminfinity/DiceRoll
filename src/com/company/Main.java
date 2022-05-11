@@ -12,7 +12,7 @@ String again;
 do {
 
 
-    int num = ThreadLocalRandom.current().nextInt(1, 7);
+    int num = ThreadLocalRandom.current().nextInt(1, 21);
     System.out.println("you rolled a " + num + ".");
     System.out.print("Roll again? y/n: ");
     again = scanner.next();
